@@ -1,0 +1,32 @@
+h1,h2 {
+    font-family: "Prata", serif;
+    color: rgb(255, 101, 88)
+  }
+*.sedan-regular {
+  font-family: "Sedan", serif;
+}
+.sedan-regular-italic {
+  font-family: "Sedan", serif;
+}
+.box {
+  min-height: 100px;
+  background-image: linear-gradient(rgb(255, 101, 88), yellow);
+}
+.boximg {
+  height: 50vh;
+  background-image: url(https://picsum.photos/2000);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button {
+  background-color: yellow; 
+  border-color: rgb(255, 101, 88);
+  border-radius: 8px; 
+  font-size: 16px; 
+  transition: background-color 0.3s ease; 
+  
+}
+button:hover {
+  background-color: rgb(255, 101, 88);
+  border-color: yellow;
+}
